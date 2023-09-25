@@ -70,3 +70,7 @@ group :test do
   gem "selenium-webdriver"
 
 end
+
+gem "pg_search", "~> 2.3"
+
+gem "pagy", "~> 6.0"

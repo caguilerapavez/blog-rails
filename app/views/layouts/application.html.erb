@@ -1,26 +1,51 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>BlogRails</title>
+    <title>Tweets</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+   
+
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
 
-  <div class="mx-auto" style="width: 200px;">
+    <%= render "navbars/navbar_principal" %>
+
+
      <%= yield %>
-  </div>
 
 
 
 
+    <!--Nosotros-->
+    <section id="NosotrosSection" class="Nosotros">
+        <div class="container text-center py-sm-3 py-md-5">
+            <h2 class="font-weight-bold mb-2">SUSCRÍBETE EN NUESTRO NEWSLETTER</h2>
+            <h4>Unete a la mejor red de Bloggers con los mejores temas de interes que tenemos en <span>Tweets</span></h4>
+
+            <div class="text-center mt-5">
+                <button type="button" class="btn btn-danger" data-toggle="tooltip" data-placement="right" title="Presiona para suscribirte">Empezar</button>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer id="Contacto" class="py-4">
+        <h3 class="Logo text-center">Tweets</h3>
+    </footer>
 
 
 

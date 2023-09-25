@@ -1,0 +1,52 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    color: var(--Negro);
+}
+
+.Logo {
+    font-size: 37px;
+    padding: 0;
+}
+
+:root{
+    --black: #000;
+    --white: #fff;
+    --danger: #0a24bd;
+    --Negro: #373A3C;
+    --grey: #777;
+    --light: #dddddd;
+}
+
+#NosotrosSection {
+    background-color: var(--danger);
+    padding: 6rem 0;
+}
+
+.Nosotros * {
+    color: var(--white);
+}
+
+.NosotrosSection .container h3 {
+    font-size: 30px;
+}
+
+.navbar,
+footer {
+    font-family: 'Lobster', cursive;
+    background-color: var(--Negro);
+    color: var(--white);
+    text-decoration: none!important;
+}
+
+.nav-link{
+    font-family: 'Cabin', regular;
+    color: var(--white);
+}
+
+span {
+    font-family: 'Lobster', cursive;
+}
+
+.fa-bars {
+    color: var(--grey);
+}
