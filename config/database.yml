@@ -85,6 +85,8 @@ test:
 #
 production:
   <<: *default
-  database: blog_rails_production
-  username: blog_rails
-  password: <%= ENV["BLOG_RAILS_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABSAE_URL'] %>
+  
+ # database: blog_rails_production
+ # username: blog_rails
+ # password: <%= ENV["BLOG_RAILS_DATABASE_PASSWORD"] %>
