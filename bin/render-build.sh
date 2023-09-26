@@ -6,6 +6,6 @@ set -0 errexit
 
 bundle install
 bundle exec rake assets:precompile
-bundle exce rake asstes:clean
-bundle rake db:migrate
-bundle rake db:seed
+bundle exec rake assets:clean
+bundle exec rake db:migrate
+bundle exec rake db:seed
