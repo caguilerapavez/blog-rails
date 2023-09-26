@@ -2,7 +2,7 @@
 
 #exit on error
 
-set -0 errexit
+set -o errexit
 
 bundle install
 bundle exec rake assets:precompile
